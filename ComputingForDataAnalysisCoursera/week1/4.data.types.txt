@@ -1,0 +1,47 @@
+30 min
+
+Objects
+object object object is everywhere in R
+
+5 atomic (basic) classes of objects
+character
+numeric (real numbers)
+complex
+integer
+logical
+(all just numbers)
+
+Many persons who are not conversant with mathemtical studies
+imagine that because the business of Babbage's Analytical Engine' 
+is to give its results in numerical notation, the 
+nature of its processes must consequenctly be arithmetical
+and numerical, rather than algebraical and analytical. This is an error.
+The engine can arrange and combine its numerical quantities exactly as if
+they were letters or any other general symbols, and in fact
+it might bring out its results in algebraical notation, were provisions
+made accordingly. Augusta Ada
+
+vector: most basic object in R (cmp. List)
+
+Numbers
+1 vs 1L
+Inf is a special number, 1/0 1/Inf -Inf
+NaN   undefined 0/0 or missing value
+
+Attributes
+object can have attributes
+ names, dimnames
+ dimensions (matrices, arrays)
+ clas
+ length
+ other
+ attributes() allows set/modify
+
+what is the most impressive R expression(s) you've ever written?
+plot(x,y)
+
+x <- 5
+x
+[1] 5
+
+

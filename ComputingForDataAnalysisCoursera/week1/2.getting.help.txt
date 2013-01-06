@@ -1,0 +1,21 @@
+12 min
+
+discussion boards and email
+
+Find answers by 
+searching the web, the manual, the source code, experimentation, FAQ, etc.
+
+Google is your friend! 
+
+Before you ask your question:
+what steps will reproduce the problem
+what is the expected output and what do you see instead
+
+a good subject header
+R 2.15.0 lm() function on Mac OS X 10.6.3 -- seg fault on large data frame
+
+Do
+describe the goal, not the step
+minimum amount of information necessary
+
+

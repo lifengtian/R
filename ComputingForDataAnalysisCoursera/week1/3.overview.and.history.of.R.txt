@@ -1,0 +1,48 @@
+16 min
+
+start with a violin piece of XXX
+
+Beamer/LaTeX was used to create the slides
+
+What is S?
+boring histories about S (oh, Hastie and Chambers)
+
+Historical Notes
+S->S-plus
+Bell Labs -> StatSci -> Insightful -> 
+
+S Philosophy
+www.stat.bell-labs.com/S/history.html
+interactive environment, did not consciously think of themselves as programming
+
+Back to R
+1991   New Zealand by Ross Ihaka and Robert Gentleman
+2000   R 1.0.0 is released
+2012   R 2.15.1 is released
+
+Features of R
+Syntax is similar
+Semantics are quite different (explain later)
+R-help, R-devel, Stack Overflow
+free software
+       run for any purpose
+       modify the way you want
+       give copies or even sell
+       release back
+
+Drawbacks of R
+based on 40 year old technology
+3D graphics?
+object stored in physical memory (limitation for large amount of data)
+
+Design of R system
+base from CRAN and everything else
+base: utils, stats, datasets etc.
+4000 packages on CRAN, Bioconductor, personal websites
+
+
+This is a standard 'background and overview' talk,
+nothing really exciting.
+
+
+

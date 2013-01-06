@@ -21,7 +21,6 @@ they were letters or any other general symbols, and in fact
 it might bring out its results in algebraical notation, were provisions
 made accordingly. Augusta Ada
 
-vector: most basic object in R (cmp. List)
 
 Numbers
 1 vs 1L
@@ -43,5 +42,42 @@ plot(x,y)
 x <- 5
 x
 [1] 5
+
+
+vector: most basic object in R (cmp. List)
+x <- 1:20
+x
+[1] 1 2 3 4 ...
+[16] 16 17 18 19 20
+
+what if x<- 1:Inf ?
+
+Creaing Vectors using c() or vector()
+
+Mixing objects in vector by automatic 'coercion'
+y <- c("a", TRUE )
+as.numeric(0:6)
+
+what about
+x <- c("a","b")
+as.numeric(x)
+
+Matrices are special type of vectors
+m <- matrix(nrow=2,ncol=3)
+dim(m)
+[1] 2 3
+attributes(m)
+[1] 2 3
+
+There is more than 1 way to create matrices.
+Matrices are constructed column-wise (well, I always need a second thought on this)
+m <- matrix(1:6, nrow=2, ncol = 3)
+
+
+m <- 1:10
+dim(m) <- c(2,5)  #confusing?exciting
+
+
+Matrices can be created by binding vectors? (how about binding matrices?)
 
 
